@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Μεταφορά φαγητού για φοιτητές | Courier για φοιτητές S.T.S.</title>
+<title>Μεταφορά φαγητού για φοιτητές | STS Courier για φοιτητές</title>
 <!-- advon-icons · favicon.py · made from ../../../../tmp/sts-logo-big.png · v11d39576 -->
 <link rel="icon" href="favicon.ico?v=11d39576" sizes="32x32">
 <link rel="icon" href="assets/icons/favicon-96.png?v=11d39576" type="image/png" sizes="96x96">
@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=11d39576">
 <link rel="manifest" href="site.webmanifest?v=11d39576">
 <!-- /advon-icons -->
-<meta name="description" content="Courier για φοιτητές από το 2006: φαγητό από τη μαμά στον φοιτητή με όχημα-ψυγείο 0–3 °C, σε λιγότερο από 24 ώρες. Δέματα, οικοσκευή. Ελλάδα & Βουλγαρία.">
+<meta name="description" content="STS — Courier για φοιτητές από το 2006: το σπιτικό φαγητό της μαμάς στον φοιτητή, με όχημα-ψυγείο στους −1 °C, σε λιγότερο από 24 ώρες. Δέματα, οικοσκευή.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="msvalidate.01" content="B111344056B4F7484DEA53457F44A3C3">
 <!-- advon-en -->
@@ -27,8 +27,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="el_GR"><meta property="og:locale:alternate" content="en_GB">
 <meta property="og:site_name" content="Courier για φοιτητές">
-<meta property="og:title" content="Δεν μετράμε χιλιόμετρα. Μετράμε χαμόγελα. — Courier για φοιτητές">
-<meta property="og:description" content="Courier για φοιτητές από το 2006: φαγητό από τη μαμά στον φοιτητή με όχημα-ψυγείο 0–3 °C, σε λιγότερο από 24 ώρες. Δέματα, οικοσκευή. Ελλάδα & Βουλγαρία.">
+<meta property="og:title" content="Στην STS δεν μετράμε χιλιόμετρα. Μετράμε χαμόγελα.">
+<meta property="og:description" content="STS — Courier για φοιτητές από το 2006: το σπιτικό φαγητό της μαμάς στον φοιτητή, με όχημα-ψυγείο στους −1 °C, σε λιγότερο από 24 ώρες. Δέματα, οικοσκευή.">
 <meta property="og:image" content="https://sts1.gr/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="assets/fonts/alegreya-greek-500-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -177,10 +177,10 @@ h1,h2,h3,p{margin:0}
 .g-v{font-size:14px;color:var(--ink2);margin-top:14px}.g-v b{display:block;font:500 28px/1.1 var(--fd);color:var(--ink)}
 .thermo{display:flex;gap:14px;align-items:stretch;height:160px}
 .th-tube{position:relative;width:26px;border-radius:14px;background:#EEF4F7;box-shadow:inset 0 0 0 2px #D3E3EA;overflow:hidden}
-.th-band{position:absolute;left:0;right:0;bottom:33.3%;height:20%;background:rgba(46,110,138,.16)}
-.th-merc{position:absolute;left:5px;right:5px;bottom:5px;border-radius:10px;background:linear-gradient(#5BA6C6,#2E6E8A);height:calc(33.3% + 8px);transition:height .5s var(--ease)}
+.th-band{position:absolute;left:0;right:0;bottom:22%;height:9.5%;background:rgba(46,110,138,.22)}
+.th-merc{position:absolute;left:5px;right:5px;bottom:5px;border-radius:10px;background:linear-gradient(#5BA6C6,#2E6E8A);height:26.7%;transition:height .5s var(--ease)}
 .th-sc{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;justify-content:space-between;font:700 12px/1 var(--fb);color:var(--ink2)}
-.th-sc li:nth-child(3),.th-sc li:nth-child(4){color:var(--ice-d)}
+.th-sc li:nth-child(3){color:var(--ice-d)}
 .clock{position:relative;width:120px;height:120px}
 .clock svg{width:100%;height:100%;transform:rotate(-90deg)}
 .ck-bg{fill:none;stroke:#F0E4D4;stroke-width:10}
@@ -436,8 +436,51 @@ h1,h2,h3,p{margin:0}
 .intro{display:none!important}
 .adv{animation:none;background-position:50% 0}
 }
+
+/* round 2 — brand text */
+.display .pre{font-size:.42em;font-style:italic;color:var(--plum);margin-bottom:.12em;letter-spacing:0}
+.carry{margin-top:6px;padding:34px 36px;border-radius:var(--r);background:var(--card);box-shadow:var(--sh2);position:relative;overflow:hidden}
+.carry::before{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(169,197,30,.2),transparent 70%)}
+.carry-k{font:700 12.5px/1 var(--fb);letter-spacing:.16em;text-transform:uppercase;color:var(--plum);margin-bottom:14px}
+.carry-l{font:500 21px/1.4 var(--fd);color:var(--ink2)}
+.carry-u{list-style:none;margin:18px 0 22px;padding:0;display:grid;gap:6px}
+.carry-u li{font:500 italic clamp(26px,2.6vw,36px)/1.2 var(--fd);display:flex;align-items:center;gap:16px;opacity:.25;transform:translateX(-14px);transition:opacity .6s,transform .8s var(--ease)}
+.carry-u li::before{content:"";flex:none;width:14px;height:14px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 6px rgba(169,197,30,.18)}
+.carry-u li.lit{opacity:1;transform:none}
+.carry-s{font:500 clamp(22px,2vw,28px)/1.3 var(--fd);color:var(--plum);border-top:1px solid var(--line);padding-top:18px}
+.no-js .carry-u li,html:not(.js) .carry-u li{opacity:1;transform:none}
+.duo{padding-top:0}
+.c-head{margin-inline:auto;text-align:center;margin-bottom:34px}.c-head .kicker{justify-content:center}
+.duo-g{display:grid;grid-template-columns:1fr 140px 1fr;align-items:stretch;gap:0}.duo-link{align-self:center}.duo{padding-bottom:clamp(60px,7vw,100px)}
+.duo-c{background:var(--plum);color:#fff;border-radius:var(--r);padding:104px 38px 40px;min-height:260px;display:flex;flex-direction:column;justify-content:flex-end;gap:12px;box-shadow:var(--sh2);position:relative;overflow:hidden}
+.duo-c:last-child{background:var(--ink)}
+.duo-i{position:absolute;top:28px;left:34px;width:54px;height:54px;fill:none;stroke:var(--lime);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.duo-c:first-child .duo-i{fill:rgba(169,197,30,.18);animation:beat 2.4s ease-in-out infinite;transform-origin:50% 60%}
+@keyframes beat{0%,100%{transform:scale(1)}12%{transform:scale(1.12)}24%{transform:scale(1)}36%{transform:scale(1.08)}}
+.duo-k{font:700 12.5px/1 var(--fb);letter-spacing:.16em;text-transform:uppercase;color:#E4F29A}
+.duo-t{font:500 clamp(24px,2.3vw,32px)/1.25 var(--fd)}
+.duo-link svg{width:100%;overflow:visible}
+.duo-link path{fill:none;stroke:var(--plum);stroke-width:3;stroke-linecap:round;stroke-dasharray:8 8;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-32}}
+.how{background:var(--card);border-radius:var(--r);padding:34px 38px;box-shadow:var(--sh1);margin-bottom:72px;display:grid;grid-template-columns:auto 1fr;gap:12px 40px;align-items:center}
+.how .kicker{margin:0;grid-row:span 2}
+.how-u{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.how-u li{font:500 19px/1.3 var(--fd);padding:14px 16px 14px 46px;border-radius:14px;background:var(--paper);position:relative}
+.how-u li::before{content:"";position:absolute;left:16px;top:17px;width:18px;height:18px;border-radius:50%;background:var(--plum) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/12px}
+.how-s{font:500 italic 20px/1.35 var(--fd);color:var(--plum)}
+.philo{background:var(--ink);color:#fff;padding:clamp(90px,11vw,150px) 0;text-align:center;position:relative;overflow:clip}
+.philo::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 20%,rgba(160,38,124,.45),transparent 45%),radial-gradient(circle at 85% 85%,rgba(169,197,30,.18),transparent 40%)}
+.philo .wrap{position:relative;max-width:1000px}
+.philo .kicker{justify-content:center;color:#F6C9E6}
+.philo-q{font-size:clamp(30px,3.8vw,52px)!important;line-height:1.25!important;color:#fff!important}
+.philo-q mark{background:linear-gradient(transparent 62%,rgba(169,197,30,.6) 62%) no-repeat 0 0/0% 100%}
+.promise{font:500 clamp(22px,2.1vw,28px)/1.4 var(--fd);color:rgba(255,255,255,.92);max-width:36em;margin:0 auto 18px}
+@media (max-width:980px){.duo-g{grid-template-columns:1fr;gap:0}.duo-link{width:80px;justify-self:center;transform:rotate(90deg);margin:6px 0}
+.how{grid-template-columns:1fr;padding:28px 24px}.how .kicker{grid-row:auto}.how-u{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.how-u{grid-template-columns:1fr}.carry{padding:26px 22px}.duo-c{padding:96px 26px 30px;min-height:0}}
+@media (prefers-reduced-motion:reduce){.carry-u li{opacity:1;transform:none}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "@id": "#business", "name": "Courier για φοιτητές – Student’s Transport Services", "alternateName": ["S.T.S.", "STS", "Student's Transport Services", "Courier gia foitites", "Courier for students"], "description": "Μεταφορά φαγητού από τη μαμά στον φοιτητή με όχημα-ψυγείο 0–3 °C σε λιγότερο από 24 ώρες, αποστολή δεμάτων και οικοσκευής για φοιτητές σε όλη την Ελλάδα, Σόφια και Φιλιππούπολη. Από το 2006.", "foundingDate": "2006", "telephone": "+30 697 620 4145", "email": "info@sts1.gr", "image": "og.jpg", "logo": "https://sts1.gr/assets/img/sts-courier-gia-foitites-logo-480.webp", "address": {"@type": "PostalAddress", "streetAddress": "Κλεισούρας 3", "addressLocality": "Αγρίνιο", "postalCode": "301 31", "addressRegion": "Αιτωλοακαρνανία", "addressCountry": "GR"}, "geo": {"@type": "GeoCoordinates", "latitude": 38.6196646, "longitude": 21.404975}, "hasMap": "https://www.google.com/maps?cid=10883289703753507416", "areaServed": [{"@type": "Country", "name": "Ελλάδα"}, {"@type": "City", "name": "Σόφια"}, {"@type": "City", "name": "Φιλιππούπολη"}], "knowsAbout": ["Αποστολή φαγητού σε φοιτητές", "Μεταφορά μαγειρεμένου φαγητού με ψυγείο", "Courier για φοιτητές", "Αποστολή δεμάτων σε φοιτητές", "Μεταφορά οικοσκευής φοιτητών"], "department": {"@type": "LocalBusiness", "name": "Courier για φοιτητές – Αθήνα", "telephone": "+30 697 620 4145", "address": {"@type": "PostalAddress", "streetAddress": "Θεσσαλονίκης 54", "addressLocality": "Αθήνα", "addressCountry": "GR"}}, "sameAs": ["https://www.facebook.com/pages/Courier-%CE%B3%CE%B9%CE%B1-%CF%86%CE%BF%CE%B9%CF%84%CE%B7%CF%84%CE%AD%CF%82/390585897675390", "https://www.google.com/maps?cid=10883289703753507416"]}, {"@type": "WebSite", "name": "Courier για φοιτητές", "alternateName": ["Student’s Transport Services", "S.T.S.", "sts1.gr"], "inLanguage": ["el", "en"]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Πόσο γρήγορα φτάνει το φαγητό;", "acceptedAnswer": {"@type": "Answer", "text": "Σε λιγότερο από 24 ώρες από τη στιγμή που μας το παραδίδετε — στην πόρτα του φοιτητή."}}, {"@type": "Question", "name": "Πώς μένει φρέσκο στη διαδρομή;", "acceptedAnswer": {"@type": "Answer", "text": "Ταξιδεύει σε όχημα-ψυγείο με ειδική άδεια από τη Διεύθυνση Υγιεινής του Υπουργείου Υγείας, από 0 έως +3 °C. Η αλυσίδα ψύξης δεν σπάει ποτέ, από την παράδοση του κιβωτίου μέχρι την παραλαβή του."}}, {"@type": "Question", "name": "Χρειάζομαι δικό μου κουτί;", "acceptedAnswer": {"@type": "Answer", "text": "Όχι. Τα τρόφιμα μεταφέρονται σε ειδικά κιβώτια μεταφοράς τροφίμων, που τα προσφέρουμε εμείς."}}, {"@type": "Question", "name": "Πότε γίνονται τα δρομολόγια;", "acceptedAnswer": {"@type": "Answer", "text": "Κάθε Κυριακή ή κάθε δεύτερη Κυριακή, ανάλογα με την πόλη προορισμού. Για τις επόμενες ημερομηνίες, καλέστε μας στο 697 620 4145."}}, {"@type": "Question", "name": "Πόσο κοστίζει μια αποστολή;", "acceptedAnswer": {"@type": "Answer", "text": "Εξαρτάται από την πόλη αποστολής και την πόλη προορισμού. Η τιμή είναι με ΦΠΑ και αφορά όγκο έως 40 λίτρα (2 κούτες μετρίου μεγέθους)· κάθε επιπλέον συσκευασία χρεώνεται 5 €. Δείτε το κόστος της δικής σας διαδρομής στις Τιμές."}}, {"@type": "Question", "name": "Στέλνετε και άλλα πράγματα εκτός από φαγητό;", "acceptedAnswer": {"@type": "Answer", "text": "Ναι. Δέματα κάθε λογής — από έναν φάκελο μέχρι σάκους με ρούχα, βαλίτσες και μικροέπιπλα — και ολόκληρη την οικοσκευή στο τέλος των σπουδών, με κλειστά φορτηγά."}}, {"@type": "Question", "name": "Σε ποιες πόλεις εξυπηρετείτε;", "acceptedAnswer": {"@type": "Answer", "text": "Όλη την ηπειρωτική Ελλάδα, όπου υπάρχουν φοιτητές, και Σόφια και Φιλιππούπολη στη Βουλγαρία. Γραφεία έχουμε στο Αγρίνιο (Κλεισούρας 3) και στην Αθήνα (Θεσσαλονίκης 54)."}}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "@id": "#business", "name": "STS – Courier για φοιτητές (Student’s Transport Services)", "alternateName": ["S.T.S.", "STS", "Student's Transport Services", "Courier gia foitites", "Courier for students"], "description": "Η STS μεταφέρει το σπιτικό φαγητό από τη μαμά στον φοιτητή με όχημα-ψυγείο στους −1 °C σε λιγότερο από 24 ώρες, αποστολή δεμάτων και οικοσκευής για φοιτητές σε όλη την Ελλάδα, Σόφια και Φιλιππούπολη. Από το 2006.", "foundingDate": "2006", "slogan": "Δεν μετράμε χιλιόμετρα. Μετράμε χαμόγελα.", "telephone": "+30 697 620 4145", "email": "info@sts1.gr", "image": "og.jpg", "logo": "https://sts1.gr/assets/img/sts-courier-gia-foitites-logo-480.webp", "address": {"@type": "PostalAddress", "streetAddress": "Κλεισούρας 3", "addressLocality": "Αγρίνιο", "postalCode": "301 31", "addressRegion": "Αιτωλοακαρνανία", "addressCountry": "GR"}, "geo": {"@type": "GeoCoordinates", "latitude": 38.6196646, "longitude": 21.404975}, "hasMap": "https://www.google.com/maps?cid=10883289703753507416", "areaServed": [{"@type": "Country", "name": "Ελλάδα"}, {"@type": "City", "name": "Σόφια"}, {"@type": "City", "name": "Φιλιππούπολη"}], "knowsAbout": ["Αποστολή φαγητού σε φοιτητές", "Μεταφορά μαγειρεμένου φαγητού με ψυγείο", "Courier για φοιτητές", "Αποστολή δεμάτων σε φοιτητές", "Μεταφορά οικοσκευής φοιτητών"], "department": {"@type": "LocalBusiness", "name": "Courier για φοιτητές – Αθήνα", "telephone": "+30 697 620 4145", "address": {"@type": "PostalAddress", "streetAddress": "Θεσσαλονίκης 54", "addressLocality": "Αθήνα", "addressCountry": "GR"}}, "sameAs": ["https://www.facebook.com/pages/Courier-%CE%B3%CE%B9%CE%B1-%CF%86%CE%BF%CE%B9%CF%84%CE%B7%CF%84%CE%AD%CF%82/390585897675390", "https://www.google.com/maps?cid=10883289703753507416"]}, {"@type": "WebSite", "name": "Courier για φοιτητές", "alternateName": ["Student’s Transport Services", "S.T.S.", "sts1.gr"], "inLanguage": ["el", "en"]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Πόσο γρήγορα φτάνει το φαγητό;", "acceptedAnswer": {"@type": "Answer", "text": "Σε λιγότερο από 24 ώρες από τη στιγμή που μας το παραδίδετε — στην πόρτα του φοιτητή."}}, {"@type": "Question", "name": "Πώς μένει φρέσκο στη διαδρομή;", "acceptedAnswer": {"@type": "Answer", "text": "Η μεταφορά γίνεται με όχημα-ψυγείο σε θερμοκρασία −1 βαθμού Κελσίου, έτσι ώστε τα φρεσκομαγειρεμένα να μην καταψύχονται και τα κατεψυγμένα να μην αποψύχονται. Η αλυσίδα ψύξης δεν σπάει ποτέ, από την παράδοση του κιβωτίου μέχρι την παραλαβή του."}}, {"@type": "Question", "name": "Χρειάζομαι δικό μου κουτί;", "acceptedAnswer": {"@type": "Answer", "text": "Όχι. Τα τρόφιμα μεταφέρονται σε ειδικά κιβώτια μεταφοράς τροφίμων, που τα προσφέρουμε εμείς."}}, {"@type": "Question", "name": "Πότε γίνονται τα δρομολόγια;", "acceptedAnswer": {"@type": "Answer", "text": "Κάθε Κυριακή ή κάθε δεύτερη Κυριακή, ανάλογα με την πόλη προορισμού. Για τις επόμενες ημερομηνίες, καλέστε μας στο 697 620 4145."}}, {"@type": "Question", "name": "Πόσο κοστίζει μια αποστολή;", "acceptedAnswer": {"@type": "Answer", "text": "Εξαρτάται από την πόλη αποστολής και την πόλη προορισμού. Η τιμή είναι με ΦΠΑ και αφορά όγκο έως 40 λίτρα (2 κούτες μετρίου μεγέθους)· κάθε επιπλέον συσκευασία χρεώνεται 5 €. Δείτε το κόστος της δικής σας διαδρομής στις Τιμές."}}, {"@type": "Question", "name": "Στέλνετε και άλλα πράγματα εκτός από φαγητό;", "acceptedAnswer": {"@type": "Answer", "text": "Ναι. Δέματα κάθε λογής — από έναν φάκελο μέχρι σάκους με ρούχα, βαλίτσες και μικροέπιπλα — και ολόκληρη την οικοσκευή στο τέλος των σπουδών, με κλειστά φορτηγά."}}, {"@type": "Question", "name": "Σε ποιες πόλεις εξυπηρετείτε;", "acceptedAnswer": {"@type": "Answer", "text": "Όλη την ηπειρωτική Ελλάδα, όπου υπάρχουν φοιτητές, και Σόφια και Φιλιππούπολη στη Βουλγαρία. Γραφεία έχουμε στο Αγρίνιο (Κλεισούρας 3) και στην Αθήνα (Θεσσαλονίκης 54)."}}]}]}</script>
 <style id="advon-consent-css">.advon-ck{position:fixed;z-index:2147483000;left:16px;right:16px;bottom:16px;max-width:440px;background:#fff;color:#1d1d1f;border:1px solid rgba(0,0,0,.08);border-radius:20px;box-shadow:0 26px 60px -20px rgba(0,0,0,.35),0 2px 10px rgba(0,0,0,.06);padding:20px 20px 18px;font:inherit;font-size:14px;line-height:1.55;text-align:left;animation:advon-up .5s cubic-bezier(.16,1,.3,1) both}
 .advon-ck[hidden]{display:none}
 .advon-ck-t{font-weight:700;font-size:16px;margin:0 0 6px;color:#1d1d1f}
@@ -451,7 +494,7 @@ h1,h2,h3,p{margin:0}
 @keyframes advon-up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.advon-ck{animation:none}}
 </style>
-<script type="application/ld+json" id="advon-webpage">{"@context":"https://schema.org","@type":"WebPage","@id":"https://sts1.gr/#webpage","url":"https://sts1.gr/","name":"Μεταφορά φαγητού για φοιτητές | Courier για φοιτητές S.T.S.","inLanguage":"el","dateModified":"2026-11-11","description":"Courier για φοιτητές από το 2006: φαγητό από τη μαμά στον φοιτητή με όχημα-ψυγείο 0–3 °C, σε λιγότερο από 24 ώρες. Δέματα, οικοσκευή. Ελλάδα & Βουλγαρία.","about":{"@id":"#business"}}</script>
+<script type="application/ld+json" id="advon-webpage">{"@context":"https://schema.org","@type":"WebPage","@id":"https://sts1.gr/#webpage","url":"https://sts1.gr/","name":"Μεταφορά φαγητού για φοιτητές | STS Courier για φοιτητές","inLanguage":"el","dateModified":"2026-11-11","description":"STS — Courier για φοιτητές από το 2006: το σπιτικό φαγητό της μαμάς στον φοιτητή, με όχημα-ψυγείο στους −1 °C, σε λιγότερο από 24 ώρες. Δέματα, οικοσκευή.","about":{"@id":"#business"}}</script>
 </head>
 <body>
 <div class="intro" id="intro" aria-hidden="true">
@@ -468,10 +511,10 @@ h1,h2,h3,p{margin:0}
   <div class="hd-in">
     <a class="brand" href="#top" aria-label="Courier για φοιτητές — αρχή σελίδας" data-en-aria="Courier for students — back to top">
       <img src="assets/img/sts-courier-gia-foitites-logo-240.webp" srcset="assets/img/sts-courier-gia-foitites-logo-240.webp 1x, assets/img/sts-courier-gia-foitites-logo-480.webp 2x" width="120" height="59" fetchpriority="high" alt="Λογότυπο S.T.S. Student's Transport Services" data-en-alt="S.T.S. Student's Transport Services logo">
-      <span class="brand-t"><b data-en="Courier for students">Courier για φοιτητές</b><small>Student’s Transport Services</small></span>
+      <span class="brand-t"><b>STS</b><small data-en="Courier for students">Courier για φοιτητές</small></span>
     </a>
     <nav class="nav" aria-label="Κύριο μενού" data-en-aria="Main menu">
-      <a href="#mama" data-en="For mum">Για τη μαμά</a>
+      <a href="#mama" data-en="Who we are">Ποιοι είμαστε</a>
       <a href="#diadromi" data-en="The journey">Η διαδρομή</a>
       <a href="#times" data-en="Prices">Τιμές</a>
       <a href="#ypiresies" data-en="What we carry">Τι μεταφέρουμε</a>
@@ -492,7 +535,7 @@ h1,h2,h3,p{margin:0}
 <div class="mnav" id="mnav" hidden>
   <button class="mnav-x" id="mnavX" type="button" aria-label="Κλείσιμο μενού" data-en-aria="Close menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
   <nav aria-label="Μενού κινητού" data-en-aria="Mobile menu">
-    <a href="#mama" data-en="For mum">Για τη μαμά</a>
+    <a href="#mama" data-en="Who we are">Ποιοι είμαστε</a>
     <a href="#diadromi" data-en="The journey">Η διαδρομή</a>
     <a href="#times" data-en="Prices">Τιμές</a>
     <a href="#ypiresies" data-en="What we carry">Τι μεταφέρουμε</a>
@@ -508,21 +551,22 @@ h1,h2,h3,p{margin:0}
   <div class="hero-bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="dots"></span></div>
   <div class="wrap hero-g">
     <div class="hero-t">
-      <h1 class="eyebrow" data-en="Courier for students · Mum’s cooking delivered to the student’s door, all over Greece">Courier για φοιτητές · Το φαγητό της μαμάς στην πόρτα του φοιτητή, σε όλη την Ελλάδα</h1>
-      <p class="display" aria-label="Δεν μετράμε χιλιόμετρα. Μετράμε χαμόγελα." data-en-aria="We don’t count kilometres. We count smiles.">
+      <h1 class="eyebrow" data-en="STS · Courier for students · Mum’s cooking delivered to the student’s door, all over Greece">STS · Courier για φοιτητές · Το φαγητό της μαμάς στην πόρτα του φοιτητή, σε όλη την Ελλάδα</h1>
+      <p class="display" aria-label="Στην STS δεν μετράμε χιλιόμετρα. Μετράμε χαμόγελα." data-en-aria="At STS we don’t count kilometres. We count smiles.">
+        <span class="ln pre" data-en="At STS"><span class="w">Στην</span> <span class="w">STS</span></span>
         <span class="ln" data-en="We don’t count"><span class="w">Δεν</span> <span class="w">μετράμε</span></span>
         <span class="ln"><span class="w km" data-en="kilometres.">χιλιόμετρα.</span><svg class="strike" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true"><path d="M6 26C90 14 210 30 394 12"/></svg></span>
         <span class="ln" data-en="We count"><span class="w">Μετράμε</span></span>
         <span class="ln"><span class="w sm" data-en="smiles.">χαμόγελα.</span><svg class="smile" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M10 12C110 62 290 62 390 12"/></svg></span>
       </p>
-      <p class="lead" data-en="You cook on Sunday. We collect it in a special food box, it travels in a refrigerated vehicle at 0–3&nbsp;°C, and in less than 24 hours your child opens the door — and your container.">Μαγειρεύετε την Κυριακή. Εμείς το παραλαμβάνουμε σε ειδικό κιβώτιο, ταξιδεύει σε όχημα-ψυγείο στους 0–3&nbsp;°C και σε λιγότερο από 24 ώρες το παιδί σας ανοίγει την πόρτα — και το ταπεράκι σας.</p>
+      <p class="lead" data-en="STS was born from a simple, real need: that no student should go without their mum’s food and care, however far away they are.">Η STS δημιουργήθηκε από μια απλή, αληθινή ανάγκη: να μη στερηθεί κανένας φοιτητής το φαγητό και τη φροντίδα της μαμάς του, όσο μακριά κι αν βρίσκεται.</p>
       <div class="cta">
         <a class="btn" href="tel:+306976204145"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span data-en="Call 697 620 4145">Καλέστε 697 620 4145</span></a>
         <a class="tlink" href="#times" data-en="See the price for your city →">Δείτε το κόστος για την πόλη σας →</a>
       </div>
       <ul class="chips">
         <li data-en="Routes every Sunday">Δρομολόγια κάθε Κυριακή</li>
-        <li data-en="Cold chain 0–3&nbsp;°C">Αλυσίδα ψύξης 0–3&nbsp;°C</li>
+        <li data-en="Refrigerated van at −1&nbsp;°C">Όχημα-ψυγείο στους −1&nbsp;°C</li>
         <li data-en="Greece &amp; Bulgaria">Ελλάδα &amp; Βουλγαρία</li>
       </ul>
     </div>
@@ -553,7 +597,7 @@ h1,h2,h3,p{margin:0}
         </g>
         <path d="M66 232h388l-20 156q-3 22-24 22H110q-21 0-24-22z" fill="none" stroke="#9FC6D6" stroke-width="5" stroke-linejoin="round"/>
         <path d="M96 252l-14 118" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".55"/>
-        <g class="cold"><rect x="330" y="356" width="104" height="32" rx="16" fill="#fff"/><text x="382" y="378" text-anchor="middle">❄ 0–3°C</text></g>
+        <g class="cold"><rect x="330" y="356" width="104" height="32" rx="16" fill="#fff"/><text x="382" y="378" text-anchor="middle">❄ −1°C</text></g>
         <g class="lid">
           <rect x="52" y="208" width="416" height="30" rx="14" fill="#A0267C"/>
           <rect x="52" y="208" width="416" height="10" rx="5" fill="#fff" opacity=".18"/>
@@ -577,19 +621,58 @@ h1,h2,h3,p{margin:0}
 <section class="sec mama" id="mama">
   <div class="wrap mama-g">
     <div class="mama-h rv">
-      <p class="kicker" data-en="For you, mum">Για εσάς, μαμά</p>
-      <h2 class="h2" data-en="We know what you’re sending. <em>It isn’t just food.</em>">Ξέρουμε τι στέλνετε. <em>Δεν είναι μόνο φαγητό.</em></h2>
+      <p class="kicker" data-en="Who we are">Ποιοι είμαστε</p>
+      <h2 class="h2" data-en="We’re not just a transport company. <em>We’re the link between home and the child.</em>">Δεν είμαστε απλώς μια εταιρεία μεταφοράς. <em>Είμαστε ο συνδετικός κρίκος ανάμεσα στο σπίτι και το παιδί.</em></h2>
     </div>
     <div class="mama-t">
-      <p class="ink" data-en="It’s the Sunday you cook twice: once for the table, once for the child who isn’t at it. It’s the “have you eaten?” you no longer need to ask. It’s a little piece of home, in a box.">Είναι η Κυριακή που μαγειρεύετε δύο φορές: μία για το τραπέζι και μία για το παιδί που λείπει. Είναι το «έφαγες;» που δεν χρειάζεται πια να ρωτήσετε. Είναι λίγο σπίτι, μέσα σε ένα κουτί.</p>
-      <p class="ink" data-en="Sending food from mum to the child who is studying away is what sets us apart. That’s why we handle it the way you would: with <mark>consistency</mark>, with <mark>speed</mark> — and above all with <mark>hygiene</mark>.">Η αποστολή φαγητού από τη μαμά στο παιδί που σπουδάζει είναι αυτό που μας κάνει να ξεχωρίζουμε. Γι’ αυτό το φροντίζουμε όπως θα το φροντίζατε εσείς: με <mark>συνέπεια</mark>, με <mark>ταχύτητα</mark> — μα πάνω απ’ όλα με <mark>υγιεινή</mark>.</p>
-      <p class="ink sign" data-en="The box arrives cold, safe and intact. The rest — the joy when they open it — is all yours.">Το κουτί φτάνει κρύο, ασφαλές, ανέπαφο. Τα υπόλοιπα —η χαρά όταν το ανοίγει— είναι όλα δικά σας.</p>
+      <p class="ink" data-en="We carry home-cooked food safely and responsibly from mum to the student, from the home kitchen to the child’s table. Every delivery is personal to us.">Μεταφέρουμε με ασφάλεια και υπευθυνότητα το σπιτικό φαγητό από τη μαμά στον φοιτητή, από την κουζίνα του σπιτιού στο τραπέζι του παιδιού. Κάθε αποστολή για εμάς είναι <mark>προσωπική υπόθεση</mark>.</p>
+      <div class="carry">
+        <p class="carry-k" data-en="What we really carry">Τι μεταφέρουμε πραγματικά</p>
+        <p class="carry-l" data-en="To students we don’t carry just food. We carry:">Στους φοιτητές δεν μεταφέρουμε μόνο φαγητό. Μεταφέρουμε:</p>
+        <ul class="carry-u">
+          <li data-en="mum’s care">τη φροντίδα της μαμάς</li>
+          <li data-en="the warmth of home">τη ζεστασιά του σπιτιού</li>
+          <li data-en="the feeling of “you’re not alone”">την αίσθηση του «δεν είσαι μόνος»</li>
+        </ul>
+        <p class="carry-s" data-en="We carry love, in every container.">Μεταφέρουμε αγάπη, σε κάθε τάπερ.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec duo" id="giapoious">
+  <div class="wrap">
+    <div class="head rv c-head">
+      <p class="kicker" data-en="Who we’re for">Σε ποιους απευθυνόμαστε</p>
+    </div>
+    <div class="duo-g">
+      <article class="duo-c rv">
+        <svg class="duo-i" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 54S10 41 10 25a11 11 0 0 1 22-3 11 11 0 0 1 22 3c0 16-22 29-22 29z"/></svg>
+        <p class="duo-k" data-en="For mums">Για τις μαμάδες</p>
+        <p class="duo-t" data-en="To the mums who want to take care of their child, even from far away.">Στις μαμάδες που θέλουν να φροντίζουν το παιδί τους, ακόμα κι από μακριά.</p>
+      </article>
+      <span class="duo-link" aria-hidden="true"><svg viewBox="0 0 120 40"><path d="M4 20c24-22 44 22 56 0s32 22 56 0"/></svg></span>
+      <article class="duo-c rv">
+        <svg class="duo-i" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 28l22-12 22 12-22 12z"/><path d="M20 34v10c6 5 18 5 24 0V34M54 28v12"/></svg>
+        <p class="duo-k" data-en="For students">Για τους φοιτητές</p>
+        <p class="duo-t" data-en="To the students who want to feel a little closer to home.">Στους φοιτητές που θέλουν να νιώθουν λίγο πιο κοντά στο σπίτι.</p>
+      </article>
     </div>
   </div>
 </section>
 
 <section class="sec road" id="diadromi">
   <div class="wrap">
+    <div class="how rv">
+      <p class="kicker" data-en="How we do it">Πώς το κάνουμε</p>
+      <ul class="how-u">
+        <li data-en="With respect for the food">Με σεβασμό στο φαγητό</li>
+        <li data-en="With strict attention to hygiene">Με αυστηρή προσοχή στην υγιεινή</li>
+        <li data-en="With consistency and reliability">Με συνέπεια και αξιοπιστία</li>
+        <li data-en="With a human approach">Με ανθρώπινη προσέγγιση</li>
+      </ul>
+      <p class="how-s" data-en="Because we know that what we hold in our hands is not just a parcel.">Γιατί ξέρουμε ότι αυτό που κρατάμε στα χέρια μας δεν είναι απλώς ένα δέμα.</p>
+    </div>
     <div class="head rv">
       <p class="kicker" data-en="From your kitchen to their door">Από την κουζίνα σας ως την πόρτα του</p>
       <h2 class="h2" data-en="The journey of <em>one container</em>">Η διαδρομή ενός <em>ταπεριού</em></h2>
@@ -598,8 +681,8 @@ h1,h2,h3,p{margin:0}
       <aside class="gauge" aria-label="Ψύξη και χρόνος" data-en-aria="Cooling and time">
         <div class="g-card">
           <p class="g-l" data-en="In the refrigerated vehicle">Στο όχημα-ψυγείο</p>
-          <div class="thermo" aria-hidden="true"><div class="th-tube"><span class="th-band"></span><span class="th-merc" id="merc"></span></div><ol class="th-sc"><li>10°</li><li>5°</li><li>3°</li><li>0°</li><li>-5°</li></ol></div>
-          <p class="g-v"><b>0–3&nbsp;°C</b> <span data-en="all the way">σε όλη τη διαδρομή</span></p>
+          <div class="thermo" aria-hidden="true"><div class="th-tube"><span class="th-band"></span><span class="th-merc" id="merc"></span></div><ol class="th-sc"><li>10°</li><li>5°</li><li>0°</li><li>−5°</li></ol></div>
+          <p class="g-v"><b>−1&nbsp;°C</b> <span data-en="all the way">σε όλη τη διαδρομή</span></p>
         </div>
         <div class="g-card">
           <p class="g-l" data-en="On the road">Στον δρόμο</p>
@@ -612,12 +695,19 @@ h1,h2,h3,p{margin:0}
         <ol class="stops">
           <li class="stop"><span class="s-n">1</span><div><h3 data-en="Sunday, in your kitchen">Κυριακή, στην κουζίνα σας</h3><p data-en="You cook as you always do — the pastitsio they miss, the stuffed peppers, the pies.">Μαγειρεύετε όπως πάντα — το παστίτσιο που του λείπει, τα γεμιστά, τις πίτες.</p></div></li>
           <li class="stop"><span class="s-n">2</span><div><h3 data-en="Into the special box">Στο ειδικό κιβώτιο</h3><p data-en="Food travels in special food-transport boxes, which we provide. You hand the box to us.">Τα τρόφιμα ταξιδεύουν μέσα σε ειδικά κιβώτια μεταφοράς τροφίμων, που τα προσφέρουμε εμείς. Μας παραδίδετε το κιβώτιο.</p></div></li>
-          <li class="stop"><span class="s-n">3</span><div><h3 data-en="In the refrigerated vehicle">Στο όχημα-ψυγείο</h3><p data-en="From the moment you hand it over until the student receives it, the cold chain stays unbroken, from 0 to +3&nbsp;°C — in a refrigerated vehicle licensed by the Hygiene Directorate of the Ministry of Health.">Από τη στιγμή που μας το δίνετε μέχρι τη στιγμή που το παραλαμβάνει ο φοιτητής, η αλυσίδα ψύξης μένει άρρηκτη, από 0 έως +3&nbsp;°C — σε όχημα-ψυγείο με ειδική άδεια από τη Διεύθυνση Υγιεινής του Υπουργείου Υγείας.</p></div></li>
+          <li class="stop"><span class="s-n">3</span><div><h3 data-en="In the refrigerated van, at −1&nbsp;°C">Στο όχημα-ψυγείο, στους −1&nbsp;°C</h3><p data-en="The journey is made in a refrigerated van at −1 degree Celsius, so freshly cooked food doesn’t freeze and frozen food doesn’t thaw. From the moment you hand it over until the student receives it, the cold chain stays unbroken.">Η μεταφορά γίνεται με όχημα-ψυγείο σε θερμοκρασία −1 βαθμού Κελσίου, έτσι ώστε τα φρεσκομαγειρεμένα να μην καταψύχονται και τα κατεψυγμένα να μην αποψύχονται. Από τη στιγμή που μας το δίνετε μέχρι τη στιγμή που το παραλαμβάνει ο φοιτητής, η αλυσίδα ψύξης μένει άρρηκτη.</p></div></li>
           <li class="stop"><span class="s-n">4</span><div><h3 data-en="Across Greece">Μέσα στην Ελλάδα</h3><p data-en="Depending on the destination city, routes run every Sunday or every second Sunday.">Ανάλογα με την πόλη προορισμού, τα δρομολόγια γίνονται κάθε Κυριακή ή κάθε δεύτερη Κυριακή.</p></div></li>
           <li class="stop last"><span class="s-n">5</span><div><h3 data-en="At their door">Στην πόρτα του</h3><p data-en="In less than 24 hours. The doorbell rings, the box opens — and somewhere, a phone lights up: “Mum, it was perfect.”">Σε λιγότερο από 24 ώρες. Χτυπάει το κουδούνι, ανοίγει το κουτί — και κάπου, ανάβει ένα κινητό: «Μαμά, ήταν τέλειο.»</p></div></li>
         </ol>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="philo" id="filosofia">
+  <div class="wrap">
+    <p class="kicker" data-en="Our philosophy">Η φιλοσοφία μας</p>
+    <p class="philo-q ink" data-en="For us, every journey matters. Not for the kilometres we’ll cover, but for the smile we’ll deliver.">Για εμάς, κάθε διαδρομή έχει σημασία. Όχι για τα χιλιόμετρα που θα διανύσουμε, αλλά για <mark>το χαμόγελο που θα παραδώσουμε</mark>.</p>
   </div>
 </section>
 
@@ -663,7 +753,7 @@ h1,h2,h3,p{margin:0}
       <article class="card big">
         <svg class="ci" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 26h48l-4 24a6 6 0 0 1-6 5H18a6 6 0 0 1-6-5z"/><path d="M5 20h54v6H5z"/><path d="M22 14c-3-4 3-6 0-10M32 14c-3-4 3-6 0-10M42 14c-3-4 3-6 0-10"/></svg>
         <h3 data-en="Food &amp; home-cooked meals">Τρόφιμα &amp; μαγειρεμένα</h3>
-        <p data-en="Mum’s cooking to the child who studies: in special food boxes, in a refrigerated vehicle at 0–3&nbsp;°C, at the destination in less than 24 hours. The risk of food spoiling is non-existent — unlike other ways of sending it.">Το φαγητό της μαμάς στο παιδί που σπουδάζει: σε ειδικά κιβώτια τροφίμων, σε όχημα-ψυγείο στους 0–3&nbsp;°C, στον προορισμό σε λιγότερο από 24 ώρες. Ο κίνδυνος αλλοίωσης είναι ανύπαρκτος — σε αντίθεση με άλλους τρόπους αποστολής.</p>
+        <p data-en="We carry home-cooked food safely and responsibly from mum to the student — from the home kitchen to the child’s table. In a refrigerated van at −1&nbsp;°C: freshly cooked food doesn’t freeze, frozen food doesn’t thaw.">Μεταφέρουμε με ασφάλεια και υπευθυνότητα το σπιτικό φαγητό από τη μαμά στον φοιτητή, από την κουζίνα του σπιτιού στο τραπέζι του παιδιού. Με όχημα-ψυγείο στους −1&nbsp;°C: τα φρεσκομαγειρεμένα δεν καταψύχονται, τα κατεψυγμένα δεν αποψύχονται.</p>
       </article>
       <article class="card">
         <svg class="ci" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 22l22-10 22 10v24L32 56 10 46z"/><path d="M10 22l22 10 22-10M32 32v24M21 17l22 10"/></svg>
@@ -728,18 +818,18 @@ h1,h2,h3,p{margin:0}
       <div class="facts">
         <p class="kicker" data-en="At a glance">Με μια ματιά</p>
         <ul>
-          <li data-en="<b>Who:</b> Courier for students — Student’s Transport Services (S.T.S.), since 2006">
-            <b>Ποιοι:</b> Courier για φοιτητές — Student’s Transport Services (S.T.S.), από το 2006</li>
+          <li data-en="<b>Who:</b> STS — Courier for students (Student’s Transport Services), since 2006">
+            <b>Ποιοι:</b> STS — Courier για φοιτητές (Student’s Transport Services), από το 2006</li>
           <li data-en="<b>What:</b> home-cooked food, groceries, parcels, bags and home moves for students"><b>Τι:</b> μαγειρεμένο φαγητό, τρόφιμα, δέματα, σάκοι και οικοσκευή για φοιτητές</li>
           <li data-en="<b>Where:</b> mainland Greece, Sofia &amp; Plovdiv · offices in Agrinio and Athens"><b>Πού:</b> ηπειρωτική Ελλάδα, Σόφια &amp; Φιλιππούπολη · γραφεία σε Αγρίνιο και Αθήνα</li>
-          <li data-en="<b>How:</b> refrigerated vehicle 0–3&nbsp;°C, in less than 24 hours"><b>Πώς:</b> όχημα-ψυγείο 0–3&nbsp;°C, σε λιγότερο από 24 ώρες</li>
+          <li data-en="<b>How:</b> refrigerated van at −1&nbsp;°C, in less than 24 hours"><b>Πώς:</b> όχημα-ψυγείο στους −1&nbsp;°C, σε λιγότερο από 24 ώρες</li>
           <li data-en="<b>Contact:</b> 697 620 4145 · info@sts1.gr"><b>Επικοινωνία:</b> 697 620 4145 · info@sts1.gr</li>
         </ul>
       </div>
     </div>
     <div class="qa">
 <details><summary data-en="How fast does the food arrive?">Πόσο γρήγορα φτάνει το φαγητό;</summary><div class="ans" data-en="In less than 24 hours from the moment you hand it to us — at the student’s door.">Σε λιγότερο από 24 ώρες από τη στιγμή που μας το παραδίδετε — στην πόρτα του φοιτητή.</div></details>
-<details><summary data-en="How does it stay fresh on the way?">Πώς μένει φρέσκο στη διαδρομή;</summary><div class="ans" data-en="It travels in a refrigerated vehicle licensed by the Hygiene Directorate of the Ministry of Health, at 0 to +3&amp;nbsp;°C. The cold chain is never broken, from the moment the box is handed over until it is received.">Ταξιδεύει σε όχημα-ψυγείο με ειδική άδεια από τη Διεύθυνση Υγιεινής του Υπουργείου Υγείας, από 0 έως +3&nbsp;°C. Η αλυσίδα ψύξης δεν σπάει ποτέ, από την παράδοση του κιβωτίου μέχρι την παραλαβή του.</div></details>
+<details><summary data-en="How does it stay fresh on the way?">Πώς μένει φρέσκο στη διαδρομή;</summary><div class="ans" data-en="It travels in a refrigerated van at −1 degree Celsius, so freshly cooked food doesn’t freeze and frozen food doesn’t thaw. The cold chain is never broken, from the moment the box is handed over until it is received.">Η μεταφορά γίνεται με όχημα-ψυγείο σε θερμοκρασία −1 βαθμού Κελσίου, έτσι ώστε τα φρεσκομαγειρεμένα να μην καταψύχονται και τα κατεψυγμένα να μην αποψύχονται. Η αλυσίδα ψύξης δεν σπάει ποτέ, από την παράδοση του κιβωτίου μέχρι την παραλαβή του.</div></details>
 <details><summary data-en="Do I need my own box?">Χρειάζομαι δικό μου κουτί;</summary><div class="ans" data-en="No. Food travels in special food-transport boxes, which we provide.">Όχι. Τα τρόφιμα μεταφέρονται σε ειδικά κιβώτια μεταφοράς τροφίμων, που τα προσφέρουμε εμείς.</div></details>
 <details><summary data-en="When do the routes run?">Πότε γίνονται τα δρομολόγια;</summary><div class="ans" data-en="Every Sunday or every second Sunday, depending on the destination city. For the next dates, call us on 697 620 4145.">Κάθε Κυριακή ή κάθε δεύτερη Κυριακή, ανάλογα με την πόλη προορισμού. Για τις επόμενες ημερομηνίες, καλέστε μας στο 697 620 4145.</div></details>
 <details><summary data-en="How much does a delivery cost?">Πόσο κοστίζει μια αποστολή;</summary><div class="ans" data-en="It depends on the city you send from and the city it goes to. Prices include VAT and cover up to 40 litres (two medium boxes); each extra package is 5&amp;nbsp;€. See the cost of your own route under &lt;a href=&quot;#times&quot;&gt;Prices&lt;/a&gt;.">Εξαρτάται από την πόλη αποστολής και την πόλη προορισμού. Η τιμή είναι με ΦΠΑ και αφορά όγκο έως 40 λίτρα (2 κούτες μετρίου μεγέθους)· κάθε επιπλέον συσκευασία χρεώνεται 5&nbsp;€. Δείτε το κόστος της δικής σας διαδρομής στις <a href="#times">Τιμές</a>.</div></details>
@@ -752,8 +842,9 @@ h1,h2,h3,p{margin:0}
 <section class="sec contact" id="epikoinonia">
   <div class="wrap">
     <div class="ct-top rv">
-      <p class="kicker" data-en="Contact">Επικοινωνία</p>
-      <h2 class="h2" data-en="One more smile? <em>Call us.</em>">Ένα χαμόγελο ακόμα; <em>Πάρτε μας τηλέφωνο.</em></h2>
+      <p class="kicker" data-en="Our promise">Η υπόσχεσή μας</p>
+      <p class="promise" data-en="We’ll keep doing what we know best: bringing families together, bringing mum closer, delivering care.">Θα συνεχίσουμε να κάνουμε αυτό που ξέρουμε καλύτερα: να ενώνουμε οικογένειες, να φέρνουμε τη μαμά πιο κοντά, να παραδίδουμε φροντίδα.</p>
+      <h2 class="h2" data-en="STS — <em>because love always finds its way.</em>">STS — <em>γιατί η αγάπη βρίσκει πάντα τον δρόμο της.</em></h2>
       <a class="big-tel" href="tel:+306976204145">697 620 4145</a>
       <p class="ct-sub"><a href="mailto:info@sts1.gr">info@sts1.gr</a> · <a href="https://www.facebook.com/pages/Courier-%CE%B3%CE%B9%CE%B1-%CF%86%CE%BF%CE%B9%CF%84%CE%B7%CF%84%CE%AD%CF%82/390585897675390" target="_blank" rel="noopener" data-en="Facebook ↗">Facebook ↗</a></p>
     </div>
@@ -783,7 +874,7 @@ h1,h2,h3,p{margin:0}
 <footer class="ft">
   <div class="wrap ft-g">
     <a class="ft-brand" href="#top" aria-label="Courier για φοιτητές — αρχή σελίδας" data-en-aria="Courier for students — back to top"><img src="assets/img/sts-courier-gia-foitites-logo-240.webp" width="120" height="59" alt="Λογότυπο S.T.S." data-en-alt="S.T.S. logo" loading="lazy"><span data-en="Courier for students">Courier για φοιτητές</span></a>
-    <p class="ft-q" data-en="We don’t count kilometres. We count smiles.">Δεν μετράμε χιλιόμετρα. Μετράμε χαμόγελα.</p>
+    <p class="ft-q" data-en="At STS we don’t count kilometres. We count smiles.">Στην STS δεν μετράμε χιλιόμετρα. Μετράμε χαμόγελα.</p>
     <p class="ft-c" data-en="Kleisouras 3, Agrinio · Thessalonikis 54, Athens · 697 620 4145 · info@sts1.gr">Κλεισούρας 3, Αγρίνιο · Θεσσαλονίκης 54, Αθήνα · 697 620 4145 · info@sts1.gr</p>
     <p class="ft-b">© <span id="yr">2026</span> Courier για φοιτητές · <a href="privacy.html" data-en="Privacy &amp; cookies">Απόρρητο &amp; cookies</a> · <a href="https://advonmedia.com" target="_blank" rel="noopener">Designed by <b class="adv">Advon Media</b></a></p>
   </div>
@@ -800,7 +891,7 @@ h1,h2,h3,p{margin:0}
 
 <script>(function(){
 var D=document,H=D.documentElement,W=window,RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
-var I18N={en:{t:'Food delivery for students | Courier for students S.T.S.',d:'Courier for students since 2006: home-cooked food from mum to the student in a refrigerated van at 0–3 °C, in under 24 hours. Parcels and home moves. Greece & Bulgaria.'}};
+var I18N={en:{t:'Food delivery for students | STS Courier for students',d:'STS — courier for students since 2006: mum’s home-cooked food to the student, in a refrigerated van at −1 °C, in under 24 hours. Parcels and home moves.'}};
 var LK='sts-lang',lang='el';try{lang=localStorage.getItem(LK)||'el'}catch(e){}
 var CITY={"ΑΓΡΙΝΙΟ": [162.8, 568], "ΑΘΗΝΑ": [341.8, 632], "ΑΙΓΙΟ": [214.5, 605], "ΑΚΡΑΤΑ": [232.3, 614], "ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ": [507, 345], "ΑΡΤΑ": [130.4, 514], "ΒΟΛΟΣ": [280.9, 494], "ΓΙΑΝΝΕΝΑ": [119.6, 464], "ΓΡΕΒΕΝΑ": [164.4, 422], "ΘΕΣΣΑΛΟΝΙΚΗ": [280.9, 366], "ΚΑΒΑΛΑ": [394.3, 336], "ΚΟΖΑΝΗ": [192.1, 400], "ΚΟΜΟΤΗΝΗ": [470.7, 318], "ΚΟΡΙΝΘΟΣ": [280.1, 636], "ΛΑΜΙΑ": [241.5, 540], "ΛΑΡΙΣΑ": [240.7, 466], "ΜΕΣΟΛΟΓΓΙ": [164.4, 593], "ΝΑΥΠΑΚΤΟΣ": [195.2, 591], "ΞΑΝΘΗ": [431.3, 316], "ΠΑΤΡΑ": [187.5, 605], "ΣΟΦΙΑ": [310.2, 160], "ΦΙΛΙΠΠΟΥΠΟΛΗ": [420.5, 216]};
 var PRICE=[[0,27,0,0,47,0,0,22,0,32,37,27,42,0,0,0,0,0,37,17,49,57],[27,0,0,0,47,32,28,32,0,32,37,32,42,0,24,28,27,22,37,22,0,0],[27,0,0,0,47,0,0,32,0,32,37,32,42,0,0,0,0,0,37,22,0,0],[27,0,0,0,47,0,0,32,0,32,37,32,42,0,0,0,0,0,37,22,0,0],[47,47,0,0,0,37,37,37,37,32,0,37,0,0,42,37,0,0,0,47,0,0],[0,0,0,0,37,0,0,0,0,27,27,0,37,0,0,0,0,0,32,22,0,0],[0,28,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0],[0,32,0,0,37,0,0,0,0,27,32,22,37,0,0,0,0,0,32,27,37,42],[0,32,0,0,37,0,0,0,0,22,27,0,32,0,0,0,0,0,32,0,32,42],[32,32,0,0,32,27,22,27,22,0,22,22,32,0,27,22,0,0,22,32,27,32],[37,37,0,0,0,0,32,32,27,22,0,27,0,0,32,32,0,0,0,37,0,0],[27,32,0,0,37,0,0,22,0,22,27,0,32,0,0,0,0,0,32,32,32,42],[42,42,0,0,0,37,37,37,32,32,0,32,0,0,42,37,0,0,0,42,0,0],[27,0,0,0,47,0,0,32,0,32,37,32,42,0,0,0,0,0,37,22,0,0],[0,24,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,0],[0,28,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0],[0,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[37,37,0,0,0,32,32,32,32,27,0,32,0,0,32,32,0,0,0,37,0,0],[0,22,0,0,47,0,0,27,0,32,37,32,42,0,0,0,0,0,37,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]];
@@ -891,13 +982,14 @@ function onScroll(){ticking=false;var y=W.scrollY,vh=W.innerHeight;
  D.querySelectorAll('.ink').forEach(function(p){var r=p.getBoundingClientRect();if(r.top>vh||r.bottom<0)return;
   p.querySelectorAll('.wd').forEach(function(w){var b=w.getBoundingClientRect();w.classList.toggle('lit',b.top<vh*.8)});
   p.querySelectorAll('mark').forEach(function(m){m.classList.toggle('lit',m.getBoundingClientRect().top<vh*.72)})});
+ D.querySelectorAll('.carry-u li').forEach(function(l){l.classList.toggle('lit',l.getBoundingClientRect().top<vh*.78)});
  /* road */
  if(rLen){var R=rt.getBoundingClientRect(),p=Math.min(1,Math.max(0,(vh*.62-R.top-30)/(R.height-60)));
   rfg.style.strokeDashoffset=rLen*(1-p);var q=rfg.getPointAtLength(p*rLen),q2=rfg.getPointAtLength(Math.min(rLen,p*rLen+2)),ang=Math.atan2(q2.y-q.y,q2.x-q.x)*180/Math.PI;
   var vert=Math.abs(Math.abs(ang)-90)<30,fl=(!vert&&Math.abs(ang)>90)?-1:1;
   van.setAttribute('transform','translate('+q.x+' '+(q.y-6)+') scale('+fl+' 1)');van.style.opacity=p>0&&p<1?1:p>=1?1:.0001;
   stops.forEach(function(s){s.classList.toggle('on',s.querySelector('.s-n').getBoundingClientRect().top<vh*.64)});
-  var temp=1.5+1.1*Math.sin(p*18);merc.style.height='calc('+((temp+5)/15*100)+'% - 0px)';
+  var temp=-1+.25*Math.sin(p*18);merc.style.height='calc('+((temp+5)/15*100)+'% - 0px)';
   ckfg.style.strokeDashoffset=1-p*.96;var hrs=Math.round(p*23);ckn.innerHTML=(p>.97?'&lt;24':hrs)+'<small>'+T[lang].h+'</small>'}
  var cur=-1;secs.forEach(function(s,i){if(s&&s.getBoundingClientRect().top<vh*.4)cur=i});navA.forEach(function(a,i){a.classList.toggle('on',i===cur)})}
 W.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
