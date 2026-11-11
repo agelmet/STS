@@ -1,0 +1,16 @@
+{
+ "source": {
+  "kind": "file",
+  "ref": "../../../../tmp/sts-logo-big.png"
+ },
+ "source_md5": "e3b3437fa369b5a26c2a71c5f9cdefe1",
+ "version": "11d39576",
+ "tile": "#FBF5EC",
+ "crop": ".3,.08,.7,.7",
+ "header": [
+  "file",
+  "assets/img/sts-courier-gia-foitites-logo-240.webp",
+  "7c4567eb9ee6c0c3bda935eff77c931e"
+ ],
+ "made": "2026-11-11"
+}
