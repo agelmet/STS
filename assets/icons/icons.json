@@ -1,7 +1,7 @@
 {
  "source": {
   "kind": "file",
-  "ref": "../../../../tmp/sts-logo-big.png"
+  "ref": "../v2/raw/logo-alpha.png"
  },
  "source_md5": "e3b3437fa369b5a26c2a71c5f9cdefe1",
  "version": "11d39576",
@@ -9,8 +9,8 @@
  "crop": ".3,.08,.7,.7",
  "header": [
   "file",
-  "assets/img/sts-courier-gia-foitites-logo-240.webp",
-  "7c4567eb9ee6c0c3bda935eff77c931e"
+  "assets/img/sts-courier-gia-foitites-logo-480.webp",
+  "2af53e2922d42ffd9530258874bc8c9b"
  ],
- "made": "2026-11-11"
+ "made": "2026-11-17"
 }
